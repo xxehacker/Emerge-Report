@@ -60,11 +60,11 @@ function FloatingNav() {
     ];
 
     return (
-        <div className="mt-20 flex items-center pb-4 justify-center h-auto w-full">
+        <div className="mt-2 md:mt-20 flex items-center pb-4 justify-center h-auto w-full">
             <FloatingDock
                 mobileClassName="hidden"
                 items={links}
-                desktopClassName="bg-green-500/10 gap-5 p-3 rounded-full w-1/2 flex justify-center items-center"
+                desktopClassName="bg-green-500/10 gap-2 sm:gap-5 p-3 rounded-full w-full sm:w-1/2 flex justify-center items-center"
             />
         </div>
     )

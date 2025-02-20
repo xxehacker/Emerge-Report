@@ -65,7 +65,7 @@ export default function Home() {
             <h1 className="mt-8 text-5xl font-extrabold tracking-tight text-gray-200 sm:text-6xl lg:text-7xl">
               Stay Safe in the Digital World.
               <br />
-              <span className="flex leading-[7rem] bg-gradient-to-r gap-5 from-green-400 to-blue-500 bg-clip-text text-transparent">
+              <span className="flex leading-none lg:leading-[7rem] bg-gradient-to-r gap-5 from-green-400 to-blue-500 bg-clip-text text-transparent">
                 <Cover className="bg-green-400">
                   Report Fearlessly, Stay Secure.
                 </Cover>
@@ -105,7 +105,7 @@ export default function Home() {
           </section>
 
           {/* Features Section */}
-          <section className="mt-20 grid gap-8 lg:grid-cols-3 justify-center items-center">
+          <section className="mt-2 md:mt-20 grid gap-0 md:gap-8 lg:grid-cols-3 justify-center items-center">
             {features.map((feature, i) => (
               <CardContainer key={i} className="inter-var">
                 <CardBody className="bg-gradient-to-br from-cyan-500 via-[#009245] to-[#009245]  relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] lg:w-[25rem] h-auto rounded-xl p-6 border">
