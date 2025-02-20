@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="left">
+    <img src="https://img.icons8.com/?size=512&id=24552&format=png" width="40%" align="left" style="margin-right: 15px"/>
+    <div style="display: inline-block;">
+        <h2 style="display: inline-block; vertical-align: middle; margin-top: 0;">EMERGE-REPORT</h2>
+        <p>
+	<em><code>❯ REPLACE-ME</code></em>
+</p>
+        <p>
+	<!-- Shields.io badges disabled, using skill icons. --></p>
+        <p>Built with the tools and technologies:</p>
+        <p>
+	<a href="https://skillicons.dev">
+		<img src="https://skillicons.dev/icons?i=next,prisma,react,postgresql,tailwind">
+	</a></p>
+    </div>
+</div>
+<br clear="left"/>
 
-## Getting Started
+##  Features
 
-First, run the development server:
+<code>❯ REPLACE-ME</code>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+##  Project Structure
+
+```sh
+└── Emerge-Report/
+    ├── README.md
+    ├── app
+    │   ├── api
+    │   ├── contact
+    │   ├── favicon.ico
+    │   ├── globals.css
+    │   ├── layout.tsx
+    │   ├── learn-more
+    │   ├── page.tsx
+    │   ├── submit-report
+    │   └── track-report
+    ├── components
+    │   ├── Details.tsx
+    │   ├── FloatingNav.tsx
+    │   ├── MobileMenu.tsx
+    │   ├── Navbar.tsx
+    │   ├── report
+    │   └── ui
+    ├── components.json
+    ├── eslint.config.mjs
+    ├── lib
+    │   ├── prisma.ts
+    │   └── utils.ts
+    ├── next.config.js
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── prisma
+    │   ├── migrations
+    │   └── schema.prisma
+    ├── public
+    │   ├── file.svg
+    │   ├── fraud.png
+    │   ├── fraud1.png
+    │   ├── fraud2.png
+    │   ├── fraud3.png
+    │   ├── fraud4.png
+    │   ├── globe.svg
+    │   ├── logo1.png
+    │   ├── logo2.svg
+    │   ├── logo3.png
+    │   ├── logo4.png
+    │   ├── next.svg
+    │   ├── vercel.svg
+    │   └── window.svg
+    ├── tailwind.config.ts
+    └── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
+##  Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+###  Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Before getting started with Emerge-Report, ensure your runtime environment meets the following requirements:
 
-## Learn More
+- **Programming Language:** TypeScript
+- **Package Manager:** Npm
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+###  Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Install Emerge-Report using one of the following methods:
 
-## Deploy on Vercel
+**Build from source:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the Emerge-Report repository:
+```sh
+❯ git clone https://github.com/xxehacker/Emerge-Report
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Navigate to the project directory:
+```sh
+❯ cd Emerge-Report
+```
+
+3. Install the project dependencies:
+
+
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm install
+```
+
+###  Usage
+Run Emerge-Report using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm run dev
+```
+
+---
+##  Todo 
+
+- [X] **`Task 1`**: Authentication.
+- [ ] **`Task 2`**: Dashboard.
+- [ ] **`Task 3`**: Website Security Information
+- [ ] **`Task 4`**: Contact Form
+
+---
+
+##  License
+
+This project is protected under the MIT License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
