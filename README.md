@@ -3,7 +3,7 @@
     <div style="display: inline-block;">
         <h2 style="display: inline-block; vertical-align: middle; margin-top: 0;">EMERGE-REPORT</h2>
         <p>
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code>❯ Emerge Report – Your Voice Against Cyber Crime. This platform enables users to report cyber-related incidents swiftly and securely </code></em>
 </p>
         <p>
 	<!-- Shields.io badges disabled, using skill icons. --></p>
@@ -122,7 +122,7 @@ Run Emerge-Report using the following command:
 ---
 ##  Todo 
 
-- [X] **`Task 1`**: Authentication.
+- [ ] **`Task 1`**: Authentication.
 - [ ] **`Task 2`**: Dashboard.
 - [ ] **`Task 3`**: Website Security Information
 - [ ] **`Task 4`**: Contact Form
