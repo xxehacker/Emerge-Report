@@ -16,10 +16,6 @@
 </div>
 <br clear="left"/>
 
-##  Features
-
-<code>❯ REPLACE-ME</code>
-
 ---
 
 ##  Project Structure
