@@ -1,5 +1,5 @@
 <div align="left">
-    <img src="https://img.icons8.com/?size=512&id=24552&format=png" width="40%" align="left" style="margin-right: 15px"/>
+    <img src="https://github.com/xxehacker/Emerge-Report/blob/main/public/fraud1.png" width="40%" align="left" style="margin-right: 15px"/>
     <div style="display: inline-block;">
         <h2 style="display: inline-block; vertical-align: middle; margin-top: 0;">EMERGE-REPORT</h2>
         <p>
@@ -10,7 +10,7 @@
         <p>Built with the tools and technologies:</p>
         <p>
 	<a href="https://skillicons.dev">
-		<img src="https://skillicons.dev/icons?i=next,prisma,react,postgresql,tailwind">
+		<img src="https://skillicons.dev/icons?i=next,prisma,react,postgresql,tailwind,typescript">
 	</a></p>
     </div>
 </div>
