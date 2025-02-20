@@ -105,7 +105,7 @@ export default function Home() {
           </section>
 
           {/* Features Section */}
-          <section className="mt-2 md:mt-20 grid gap-0 md:gap-8 lg:grid-cols-3 justify-center items-center">
+          <section className="mt-2 md:mt-20 h-full grid gap-0 lg:grid-cols-3 justify-center items-center">
             {features.map((feature, i) => (
               <CardContainer key={i} className="inter-var">
                 <CardBody className="bg-gradient-to-br from-cyan-500 via-[#009245] to-[#009245]  relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] lg:w-[25rem] h-auto rounded-xl p-6 border">
