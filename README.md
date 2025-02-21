@@ -18,7 +18,7 @@
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```sh
 └── Emerge-Report/
@@ -72,34 +72,35 @@
 ```
 
 ---
-##  Getting Started
 
-###  Prerequisites
+## Getting Started
+
+### Prerequisites
 
 Before getting started with Emerge-Report, ensure your runtime environment meets the following requirements:
 
 - **Programming Language:** TypeScript
 - **Package Manager:** Npm
 
-
-###  Installation
+### Installation
 
 Install Emerge-Report using one of the following methods:
 
 **Build from source:**
 
 1. Clone the Emerge-Report repository:
+
 ```sh
 ❯ git clone https://github.com/xxehacker/Emerge-Report
 ```
 
 2. Navigate to the project directory:
+
 ```sh
 ❯ cd Emerge-Report
 ```
 
 3. Install the project dependencies:
-
 
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
@@ -107,7 +108,8 @@ Install Emerge-Report using one of the following methods:
 ❯ npm install
 ```
 
-###  Usage
+### Usage
+
 Run Emerge-Report using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
@@ -116,7 +118,8 @@ Run Emerge-Report using the following command:
 ```
 
 ---
-##  Todo 
+
+## Todo
 
 - [ ] **`Task 1`**: Authentication.
 - [ ] **`Task 2`**: Dashboard.
@@ -125,7 +128,7 @@ Run Emerge-Report using the following command:
 
 ---
 
-##  License
+## License
 
 This project is protected under the MIT License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 

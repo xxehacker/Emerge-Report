@@ -2,15 +2,15 @@ import { ReportWizard } from "@/components/report/ReportWizard";
 
 export default function SubmitReportPage() {
   return (
-     <div className="relative p-10 min-h-screen bg-black selection:bg-sky-500/20 overflow-hidden">
+     <div className="relative p-4 sm:p-10 min-h-screen bg-black selection:bg-sky-500/20 overflow-hidden">
       {/* Gradient Background */}
       <div className="fixed inset-0 -z-10 min-h-screen">
         <div className="absolute inset-0 h-full bg-[radial-gradient(circle_at_center,rgba(56,189,248,0.03),transparent_50%)]" />
         <div className="absolute inset-0 h-full bg-[radial-gradient(circle_at_center,rgba(14,165,233,0.04),transparent_70%)]" />
       </div>
 
-      <main className="relative px-6 pt-10">
-        <div className="mx-auto max-w-3xl">
+      <main className="relative px-1 sm:px-6 pt-10">
+        <div className="mx-auto max-w-full sm:max-w-3xl">
           <div className="flex flex-col items-center text-center">
             <div className="inline-flex h-9 items-center gap-2 rounded-full border border-sky-500/20 bg-sky-500/10 px-4 text-sm text-green-400">
               <svg
@@ -39,7 +39,7 @@ export default function SubmitReportPage() {
             </p>
           </div>
 
-          <div className="mt-16 bg-green-500/80 rounded-2xl border border-white/5 p-6">
+          <div className="mt-16 bg-green-500/80 rounded-2xl border border-white/5 p-3 sm:p-6">
             <ReportWizard  /> 
           </div>
         </div>

@@ -25,7 +25,7 @@ export function ReportWizard() {
 
   return (
     <>
-      <div className="rounded-2xl bg-zinc-900 p-8">
+      <div className="rounded-2xl bg-zinc-900 p-4 sm:p-8">
         {currentStep === 1 && <ReportForm onComplete={handleStepComplete} />}
         {currentStep === 2 && (
           <ReportSubmited data={reportData} onComplete={handleStepComplete} />
